@@ -2,4 +2,4 @@ prime_list = []
 
 # TODO
 
-print(*prime_list)
+print(prime_list)
