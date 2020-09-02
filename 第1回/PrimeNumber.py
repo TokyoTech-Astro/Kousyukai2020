@@ -1,3 +1,4 @@
+# エラトステネスのふるいを用いていない解
 prime_list = []
 t = 2
 while len(prime_list) < 50:
