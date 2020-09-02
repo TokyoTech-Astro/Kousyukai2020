@@ -1,5 +1,5 @@
-prime_list = []
+prime_num = []
 
 # TODO
 
-print(prime_list)
+print(prime_num)
