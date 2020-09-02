@@ -1,6 +1,6 @@
 import math
 
-num = n
+num = int(input())
 original = num
 num_list = list(range(2, math.ceil(num ** (1 / 2))))
 num_list2 = []
