@@ -1,4 +1,4 @@
-def disk_img():
+def disk_img():         # ハノイの塔を表示する関数
     image = [[" " * (2*n + 1)] * 3 for i in range(n)]
     for i, disk in enumerate(pegs):
         for j in range(len(disk)):
@@ -6,12 +6,12 @@ def disk_img():
     for i in image:
         print(*i)
     
-def move_disk(disk,source,destination):
+def move_disk(disk, source, destination):     
     pegs[destination].append(pegs[source].pop())
     print(f"disk{disk}  {source} => {destination}")
     disk_img()
 
-def move_tower(disk,source,destination):
+def move_tower(disk, source, destination):
     # TODO
 
 def hanoi(n):

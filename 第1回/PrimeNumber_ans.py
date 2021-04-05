@@ -1,11 +1,13 @@
 # エラトステネスのふるいを用いていない解
 prime_list = []
-t = 2
+n = 2
+
 while len(prime_list) < 50:
     for i in prime_list:
-        if t % i == 0:
+        if n % i == 0:
             break
     else:
-        prime_list.append(t)
-    t+=1
+        prime_list.append(n)
+    n+=1
+
 print(prime_list)
