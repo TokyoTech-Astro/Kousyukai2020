@@ -12,7 +12,7 @@ def move_disk(disk, source, destination):
     disk_img()
 
 def move_tower(disk, source, destination):
-    # TODO
+    # TODO:この関数のみ完成させればよい
 
 def hanoi(n):
     global pegs
