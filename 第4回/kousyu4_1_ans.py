@@ -8,13 +8,17 @@ class counter(Thread):
         super(counter,self).__init__()
     
     def run(self):
-        # TODO
+        t = 0
+        while boolean:
+            print(t)
+            t += 1
+            time.sleep(0.3)
 
 thread1 = counter()
 thread1.start()
 
 while 1:
-    if input() == "e":
+    if input() == "end":
         boolean = False
         break
 
