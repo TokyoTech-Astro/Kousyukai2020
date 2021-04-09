@@ -1,6 +1,6 @@
 from fraction import frac
 
-x = frac(*map(int,input().split("/"))) # "3/5"のように入力された分数を読み取る
+x = frac(*map(int,input().split("/"))) # "3/5"のように入力された分数を読み取ってfracクラスを作る
 denominators = []                      # 分母をこのリストに入れる
 
 while x.bunsi != 1:
